@@ -1,6 +1,6 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
@@ -9,3 +9,8 @@
 
 # pytest files
 /pytest_caplog/*
+
+logging.log
+**/sonarlint
+**/inspectionProfiles
+/.idea/pytest_caplog.iml
