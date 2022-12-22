@@ -2,6 +2,7 @@
 class TestCapLog:
 
     def _test_logger(self, tf_caplog):
+        """Display caplog capture text"""
         # display capture log
         print("\nCAPLOG:")
         output = tf_caplog.text.rstrip('\n').split(sep='\n')
