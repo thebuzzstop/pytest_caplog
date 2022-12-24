@@ -10,7 +10,7 @@
 # pytest files
 /pytest_caplog/*
 
-logging.log
+logging.log*
 **/sonarlint
 **/inspectionProfiles
 /.idea/pytest_caplog.iml
